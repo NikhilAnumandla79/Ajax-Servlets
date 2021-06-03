@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Form Registration</h1>
+	<form>
+		Full Name:<input type="text" name="fullname" id="fullname"><br>
+		Age:<input type="number" name="age" id="age"><br>
+		Is Married:<input type="checkbox" name="married" id="married"><br>
+		Gender:<input type= "radio" value="male" name="gender" id="gender">male &nbsp;
+				<input type="radio" value="female" name= "gender" id="gender">female<br>
+		<input type="button" onclick="postUserData()" value="submit">
+	</form>
+	<div id="data"></div>
+
+<script src="ajax.js"></script>
+</body>
+</html>
